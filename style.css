@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+}
+h1 {
+  font-size: 1.3em;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.flex-photo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  justify-content: center;
+  border: 1px solid black;
+}
+.flex-item {
+  flex: 1 0 285px;
+  border: 1px solid black;
+  height: 300px;
+}
+
+.flex-img {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.flex-desc {
+
+}
+.template {
+  display: none;
+}
